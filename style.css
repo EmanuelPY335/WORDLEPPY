@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Times, serif, sans-serif;
+    background-image: url("https://wordsrated.com/wp-content/uploads/2023/10/History-of-Wordle-scaled.jpg");
+  }
+     
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black;
+  }
+  h4{
+    margin-left: 50%;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 3px black;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ffffff;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  #Audio{
+    width: 150px;
+    height: 25px; 
+  } 
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid rgb(255, 255, 255);
+      padding: 3px;
+      margin: 3px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 10px;
+  }
+     
+  .input-area{
+      margin: 30px;
+      
+  }
+  #grid{
+    margin-top: 20px;
+    text-align: center;
+  }
+  #reset{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgb(42, 155, 155);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
